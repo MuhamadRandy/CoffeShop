@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.atas{
+    color: white;
+    background-image: url(foto/kopishop.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1);
+}
+
+.atas h1{
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+}
+
+.atas p{
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 30px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+.carousel-item {
+    max-height: 500px;
+}
+
+#kontak{
+    background-image: linear-gradient(gray, dimgrey, black);
+    color: white;
+}
+
+
+.kontak{
+    margin: 0 auto;
+}
+label{
+    float: left;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: -35px;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+.footer a{
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #kontak {
+        padding-left: 10px;
+    }
+
+    .kontak{
+        margin: 0 auto;
+    }
+
+    label{
+        float: left;
+    }
+ }
+
+
+
+/* .atas{
+    color: white;
+    background-image: url(network.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;]
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1);
+}
+
+.atas img {
+    display: block;
+    margin: 70px auto 10px auto;
+}
+
+.atas h1{
+    text-align: center;
+    color: white;
+}
+
+.atas p{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    padding-bottom: 5px;
+    margin: auto;
+    width: 400px;
+    border-top: 2px solid black;
+}
+
+.carousel-inner {
+    height: 400px;
+    margin-left: 5px;
+    width: 1100px;
+    padding-top: 0px;
+}
+
+.satu {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+}
+
+#kontak{
+    background-image: linear-gradient(gray, dimgrey, black);
+    color: white;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: -35px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+.footer a{
+    color: white;
+}
+.kontak{
+    margin: 0 auto;
+}
+label{
+    float: left;
+}
+
+.form-inline {
+    margin-left: 473px;
+}
+
+.row .col hr {
+    width: 150px;
+    border-top: 3px solid black;
+} */
